@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.stringsdict.plist
+   LocalizationTest
+
+   Created by Vladimir Kofman on 9/27/15.
+   Copyright (c) 2015 AlcoChange. All rights reserved.
+-->
+<plist version="1.0">
+	<dict>
+		<key>%d messages in your inbox</key>
+		<dict>
+			<key>NSStringLocalizedFormatKey</key>
+			<string>%#@messages@ in your inbox</string>
+			<key>messages</key>
+			<dict>
+				<key>NSStringFormatSpecTypeKey</key>
+				<string>NSStringPluralRuleType</string>
+				<key>NSStringFormatValueTypeKey</key>
+				<string>d</string>
+				<key>one</key>
+				<string>One message is</string>
+				<key>other</key>
+				<string>%d messages are</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>
